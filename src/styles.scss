@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.login {
+  margin-top: 50px;
+}
+
+.marginCard {
+  margin: auto;
+  width: 23%;
+}
+
+.loginForm {
+  padding-top: 20px;
+  width: 30%;
+  margin: auto;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  margin-bottom: 30px
+}
+
+.loginButton {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.loginPage {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.alertError {
+  color: red;
+  margin: 5px 0;
+}
+
+.copyright {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}

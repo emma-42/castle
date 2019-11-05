@@ -1,0 +1,12 @@
+<div class="container login" *ngIf="user">
+    <div class="loginForm">
+        <img src="https://d33wubrfki0l68.cloudfront.net/013630ae2b4834021215e08a63c24def3e8c7efe/efc68/assets/images/logo-ol.svg"
+            class="image">
+        <div class='loginPage'>
+            <h3>Welcome to Castle.io</h3>
+            <p>You are successfully logged in as {{user.username}}</p>
+            <button class="btn btn-primary loginButton" (click)="logout()">Log Out</button>
+            <p class="copyright">© 2019 </p>
+        </div>
+    </div>
+</div>

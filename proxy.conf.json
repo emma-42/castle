@@ -1,0 +1,6 @@
+{
+  "/authenticate": {
+    "target": "https://api.castle.io/v1",
+    "secure": false
+  }
+}
